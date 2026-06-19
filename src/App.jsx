@@ -73,13 +73,14 @@ const App = () => {
         
         {/* Hero Section */}
         <section id="home" className="min-h-screen flex items-center pt-20 px-6 md:px-12 max-w-7xl mx-auto">
-          <motion.div 
-            variants={staggerContainer}
-            initial="hidden"
-            whileInView="visible"
-            viewport={{ once: true }}
-            className="max-w-3xl"
-          >
+          <div className="flex flex-col md:flex-row items-center justify-between w-full gap-12">
+            <motion.div 
+              variants={staggerContainer}
+              initial="hidden"
+              whileInView="visible"
+              viewport={{ once: true }}
+              className="max-w-2xl flex-1"
+            >
             <motion.div variants={fadeIn} className="text-cyan-400 font-semibold tracking-widest text-sm mb-6 uppercase">
               Welcome
             </motion.div>
@@ -107,7 +108,20 @@ const App = () => {
                 DOWNLOAD RESUME <Download size={18} />
               </a>
             </motion.div>
-          </motion.div>
+            
+            <motion.div 
+              initial={{ opacity: 0, scale: 0.8 }}
+              whileInView={{ opacity: 1, scale: 1 }}
+              transition={{ duration: 0.8, delay: 0.2 }}
+              viewport={{ once: true }}
+              className="flex-1 flex justify-center md:justify-end mt-12 md:mt-0"
+            >
+              <div className="relative w-64 h-64 md:w-80 md:h-80 rounded-full p-2 border-4 border-cyan-400 shadow-[0_0_30px_rgba(34,211,238,0.3)]">
+                <img src="/profile.jpg" alt="Shouvik Sarkar" className="w-full h-full object-cover rounded-full" />
+                <div className="absolute inset-0 rounded-full border-2 border-blue-500/50 scale-[1.05]"></div>
+              </div>
+            </motion.div>
+          </div>
         </section>
 
         {/* About Section */}
