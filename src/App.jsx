@@ -133,7 +133,7 @@ const App = () => {
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-y-4 gap-x-8 mb-8 text-sm">
                 <div className="flex items-center gap-2"><span className="text-cyan-400">›</span> <strong>Location:</strong> Kolkata, West Bengal, India</div>
                 <div className="flex items-center gap-2"><span className="text-cyan-400">›</span> <strong>Degree:</strong> B.Tech</div>
-                <div className="flex items-center gap-2"><span className="text-cyan-400">›</span> <strong>Phone:</strong> +91 9748955535</div>
+                <div className="flex items-center gap-2"><span className="text-cyan-400">›</span> <strong>Phone:</strong> +91 9748955535, 7980071184</div>
                 <div className="flex items-center gap-2"><span className="text-cyan-400">›</span> <strong>Experience:</strong> 7.5+ Years</div>
                 <div className="flex items-center gap-2"><span className="text-cyan-400">›</span> <strong>Email:</strong> iamshouviksarkar@gmail.com</div>
               </div>
@@ -305,7 +305,7 @@ const App = () => {
                 </div>
                 <div>
                   <h4 className={`font-bold ${isDarkMode ? 'text-white' : 'text-slate-900'}`}>Call</h4>
-                  <p className="text-sm opacity-80">+91 9748955535</p>
+                  <p className="text-sm opacity-80">+91 9748955535, 7980071184</p>
                 </div>
               </div>
             </div>
