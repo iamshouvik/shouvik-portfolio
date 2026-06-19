@@ -91,11 +91,11 @@ const App = () => {
             <motion.div variants={fadeIn} className="w-24 h-1 bg-gradient-to-r from-cyan-400 to-blue-500 mb-8 rounded-full"></motion.div>
             
             <motion.div variants={fadeIn} className="text-xl md:text-2xl mb-6">
-              I'm an awesome <span className="text-cyan-400 font-semibold">Java Full Stack Developer</span>
+              I'm a <span className="text-cyan-400 font-semibold">Senior Technical SME & Senior Product Specialist</span>
             </motion.div>
             
             <motion.p variants={fadeIn} className="text-lg opacity-80 leading-relaxed mb-10 max-w-2xl">
-              A passionate Software Engineer with expertise in Java Full Stack Development. Currently working at Cognizant, I specialize in building scalable web applications using Spring Boot and ReactJS.
+              Senior Technical SME and Senior Product Specialist with 7.5+ years of full-stack engineering experience (Java/Spring Boot) and deep domain expertise in Retirement Income Solutions (RIS). Certified in Insurance and Annuities with a proven track record of architecting solutions for MetLife's RIS ecosystem.
             </motion.p>
             
             <motion.div variants={fadeIn} className="flex flex-col sm:flex-row gap-4">
