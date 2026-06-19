@@ -118,7 +118,7 @@ const App = () => {
               className="flex-1 flex justify-center md:justify-end mt-12 md:mt-0"
             >
               <div className="relative w-64 h-64 md:w-80 md:h-80 rounded-full p-2 border-4 border-cyan-400 shadow-[0_0_30px_rgba(34,211,238,0.3)]">
-                <img src="/profile.jpg" alt="Shouvik Sarkar" className="w-full h-full object-cover rounded-full" />
+                <img src="/profile.jpeg" alt="Shouvik Sarkar" className="w-full h-full object-cover rounded-full" />
                 <div className="absolute inset-0 rounded-full border-2 border-blue-500/50 scale-[1.05]"></div>
               </div>
             </motion.div>
