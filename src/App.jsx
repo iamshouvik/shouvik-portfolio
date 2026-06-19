@@ -137,7 +137,7 @@ const App = () => {
               <div className={`rounded-xl overflow-hidden border ${isDarkMode ? 'border-white/10' : 'border-slate-200'} aspect-square bg-slate-800 relative`}>
                 {/* Placeholder for Profile Image */}
                 <div className="absolute inset-0 flex items-center justify-center text-slate-500">
-                  [Profile Image Placeholder]
+                  <img src="/profile.jpeg" alt="Shouvik Sarkar" className="w-full h-full object-cover rounded-full" />
                 </div>
               </div>
             </div>
