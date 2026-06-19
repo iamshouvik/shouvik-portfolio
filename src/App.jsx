@@ -100,7 +100,7 @@ const App = () => {
             
             <motion.div variants={fadeIn} className="flex flex-col sm:flex-row gap-4">
               <a 
-                href="/Shouvik_Sarkar_CV.pdf" 
+                href="/Shouvik_Sarkar_CV_Updated.pdf" 
                 download
                 className="bg-gradient-to-r from-cyan-400 to-blue-500 hover:from-cyan-500 hover:to-blue-600 text-white px-8 py-3 rounded text-sm font-bold tracking-wider flex items-center justify-center gap-2 transition-all shadow-lg shadow-cyan-500/20"
               >
